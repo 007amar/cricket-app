@@ -6,6 +6,64 @@
   height: 40vmin;
   pointer-events: none;
 }
+.p10{
+  padding: 10px;
+}
+.top-tabs .react-tabs__tab-list {
+  border-bottom: none !important;
+  text-align: center;
+    font-weight: 600;
+    padding-top: 20px !important;
+}
+
+.top-tabs .react-tabs__tab{
+  color: #6b6969 !important;
+  padding: .5rem !important;
+  background-color: #fff !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  text-align: center !important;
+  font-size: 0.65rem !important;
+  border: 1px solid rgba(0,0,0,.1) !important;
+}
+.top-tabs .react-tabs__tab--selected{
+  color: #d44030 !important;
+  padding: .5rem !important;
+  background-color: #fff !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  text-align: center !important;
+  font-size: 0.65rem !important;
+  border: 1px solid rgba(0,0,0,.1) !important;
+}
+.bottom-tabs .react-tabs__tab-list {
+  border-bottom: none !important;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+}
+
+.bottom-tabs .react-tabs__tab{
+  color: #6b6969 !important;
+  padding: .5rem !important;
+  background-color: #fff !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  text-align: center !important;
+  font-size: 0.65rem !important;
+  border: 0px solid rgba(0,0,0,.1) !important;
+  width: 33.33%;
+}
+.bottom-tabs .react-tabs__tab--selected{
+  padding: .5rem !important;
+  background-color: #fff !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  text-align: center !important;
+  font-size: 0.65rem !important;
+  border-bottom: 3px solid #d44030 !important;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
