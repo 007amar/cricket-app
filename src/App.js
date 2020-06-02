@@ -13,11 +13,11 @@ const client = new ApolloClient({
 function App() {
   return (
    <ApolloProvider client={client}>
-      <div className="flex w-100 flex-column pt5-l ">
+      <div className="flex w-100 flex-column ">
       <div className="min-vh-100">
           <div className="ph3 ph7-l relative">
             <div className="pt3-ns pr0 pr3-ns">
-              <div className="f3 db black-70 b pt3 pt0-ns pb2">
+              <div className="f4 db black-70 b pt3 pt0-ns pb2">
                 Schedules
               </div>
               <div className="bg-white">
